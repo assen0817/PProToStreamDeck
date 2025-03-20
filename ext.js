@@ -77,7 +77,7 @@ function dragHandler(event) {
 	*/
 	
 	if (extPath !== null) {
-		extPath = extPath + "/payloads/test.jpg";
+		extPath = extPath + "/payloads/localhost.png";
 		if (OSVersion.indexOf("Windows") >=0) {
 			var sep = "\\\\";
 			extPath = extPath.replace(/\//g, sep);
